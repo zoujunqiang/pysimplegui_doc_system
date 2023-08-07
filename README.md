@@ -1,6 +1,6 @@
 # pysimplegui_doc_system
 项目介绍:
-1.gui使用pysimlegui, 数据库使用sql server
+1.gui使用pysimlegui, 数据库使用sql server 2012
 2.API为自定义功能接口
 3.CONFIG下的settings.py项目配置文件
 4.文件夹excel为导出时的路径
