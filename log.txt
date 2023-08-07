@@ -1,0 +1,112 @@
+2023-08-07 11:49:08,627 - INFO - 程序启动
+2023-08-07 11:49:46,185 - INFO - 程序启动
+2023-08-07 11:54:47,856 - INFO - 程序启动
+2023-08-07 11:54:59,987 - INFO - 查询SQL:SELECT id_password,role from member WHERE id_number='100401' 
+2023-08-07 11:55:00,066 - INFO - 查询SQL:SELECT name FROM member WHERE id_number='100401' 
+2023-08-07 11:55:00,192 - INFO - 更新SQL:INSERT INTO login_info (id_number,login_time,login_status) VALUES ('100401', '2023-08-07 11:55:00', '1') 
+2023-08-07 11:55:00,221 - INFO - 更新SQL:UPDATE member SET user_status=1 WHERE id_number='100401' 
+2023-08-07 11:55:00,248 - INFO - 100401 登录成功
+2023-08-07 11:55:00,249 - INFO - 查询SQL:SELECT approve_name from approve_user WHERE file_type=1 ORDER BY approve_name
+2023-08-07 11:55:00,270 - INFO - 查询SQL:SELECT ROW_NUMBER() OVER ( ORDER BY ID ) AS row_number,file_name,ID,id_number,send_time,finish_status,Uname FROM approve_file WHERE ID IN (SELECT job_id FROM approve_job WHERE job_flag=1 and id_number='100401') and file_name like '%%' and id_number like '%%' and send_time >= ''
+2023-08-07 11:55:03,239 - INFO - 更新SQL:INSERT INTO login_info (id_number,login_time,login_status) VALUES ('100401', '2023-08-07 11:55:03', '0') 
+2023-08-07 11:55:03,258 - INFO - 更新SQL:UPDATE member SET user_status=0 WHERE id_number='100401' 
+2023-08-07 11:55:03,577 - INFO - 100401 退出登录
+2023-08-07 11:59:03,630 - INFO - 程序启动
+2023-08-07 12:00:16,127 - INFO - 程序启动
+2023-08-07 12:00:23,171 - INFO - 查询SQL:SELECT id_password,role from member WHERE id_number='100401' 
+2023-08-07 12:02:28,303 - INFO - 程序启动
+2023-08-07 14:10:48,230 - INFO - 程序启动
+2023-08-07 14:10:54,961 - INFO - 查询SQL:SELECT id_password,role from member WHERE id_number='100401' 
+2023-08-07 14:10:55,041 - INFO - 查询SQL:SELECT name FROM member WHERE id_number='100401' 
+2023-08-07 14:10:55,146 - INFO - 更新SQL:INSERT INTO login_info (id_number,login_time,login_status) VALUES ('100401', '2023-08-07 14:10:55', '1') 
+2023-08-07 14:10:55,166 - INFO - 更新SQL:UPDATE member SET user_status=1 WHERE id_number='100401' 
+2023-08-07 14:10:55,191 - INFO - 100401 登录成功
+2023-08-07 14:10:55,191 - INFO - 查询SQL:SELECT approve_name from approve_user WHERE file_type=1 ORDER BY approve_name
+2023-08-07 14:10:55,278 - INFO - 查询SQL:SELECT ROW_NUMBER() OVER ( ORDER BY ID ) AS row_number,file_name,ID,id_number,send_time,finish_status,Uname FROM approve_file WHERE ID IN (SELECT job_id FROM approve_job WHERE job_flag=1 and id_number='100401') and file_name like '%%' and id_number like '%%' and send_time >= ''
+2023-08-07 14:11:08,859 - INFO - 查询SQL:SELECT ROW_NUMBER() OVER ( ORDER BY ID ) AS row_number,file_name,ID,id_number,send_time,finish_status,Uname FROM approve_file WHERE id_number='100401' and file_name like '%%' and finish_status LIKE '%%' and send_time >= '' 
+2023-08-07 14:11:19,099 - INFO - 更新SQL:INSERT INTO login_info (id_number,login_time,login_status) VALUES ('100401', '2023-08-07 14:11:14', '0') 
+2023-08-07 14:11:19,132 - INFO - 更新SQL:UPDATE member SET user_status=0 WHERE id_number='100401' 
+2023-08-07 14:11:19,165 - INFO - 100401 退出登录
+2023-08-07 14:54:34,687 - INFO - 程序启动
+2023-08-07 15:07:15,844 - INFO - 查询SQL:SELECT id_password,role from member WHERE id_number='100401' 
+2023-08-07 15:07:15,895 - INFO - 查询SQL:SELECT name FROM member WHERE id_number='100401' 
+2023-08-07 15:07:15,972 - INFO - 更新SQL:INSERT INTO login_info (id_number,login_time,login_status) VALUES ('100401', '2023-08-07 15:07:15', '1') 
+2023-08-07 15:07:15,993 - INFO - 更新SQL:UPDATE member SET user_status=1 WHERE id_number='100401' 
+2023-08-07 15:07:16,019 - INFO - 100401 登录成功
+2023-08-07 15:07:16,019 - INFO - 查询SQL:SELECT approve_name from approve_user WHERE file_type=1 ORDER BY approve_name
+2023-08-07 15:07:16,056 - INFO - 查询SQL:SELECT ROW_NUMBER() OVER ( ORDER BY ID ) AS row_number,file_name,ID,id_number,send_time,finish_status,Uname FROM approve_file WHERE ID IN (SELECT job_id FROM approve_job WHERE job_flag=1 and id_number='100401') and file_name like '%%' and id_number like '%%' and send_time >= ''
+2023-08-07 15:07:19,269 - INFO - 查询SQL:SELECT ROW_NUMBER() OVER ( ORDER BY ID ) AS row_number,file_name,ID,id_number,send_time,finish_status,Uname FROM approve_file WHERE id_number='100401' and file_name like '%%' and finish_status LIKE '%%' and send_time >= '' 
+2023-08-07 15:16:19,424 - INFO - 查询SQL:SELECT id_password,role from member WHERE id_number='100401' 
+2023-08-07 15:16:19,493 - INFO - 查询SQL:SELECT name FROM member WHERE id_number='100401' 
+2023-08-07 15:16:19,595 - INFO - 更新SQL:INSERT INTO login_info (id_number,login_time,login_status) VALUES ('100401', '2023-08-07 15:16:19', '1') 
+2023-08-07 15:16:19,635 - INFO - 更新SQL:UPDATE member SET user_status=1 WHERE id_number='100401' 
+2023-08-07 15:16:19,673 - INFO - 100401 登录成功
+2023-08-07 15:16:19,674 - INFO - 查询SQL:SELECT approve_name from approve_user WHERE file_type=1 ORDER BY approve_name
+2023-08-07 15:16:19,714 - INFO - 查询SQL:SELECT ROW_NUMBER() OVER ( ORDER BY ID ) AS row_number,file_name,ID,id_number,send_time,finish_status,Uname FROM approve_file WHERE ID IN (SELECT job_id FROM approve_job WHERE job_flag=1 and id_number='100401') and file_name like '%%' and id_number like '%%' and send_time >= ''
+2023-08-07 15:16:23,879 - INFO - 查询SQL:SELECT ROW_NUMBER() OVER ( ORDER BY user_status DESC ) AS row_number, id_number,name,user_status FROM member WHERE user_status in (0,1) and role in (0,1)
+2023-08-07 15:16:33,602 - INFO - 更新SQL:INSERT INTO login_info (id_number,login_time,login_status) VALUES ('100401', '2023-08-07 15:16:33', '0') 
+2023-08-07 15:16:33,620 - INFO - 更新SQL:UPDATE member SET user_status=0 WHERE id_number='100401' 
+2023-08-07 15:16:33,650 - INFO - 100401 退出登录
+2023-08-07 15:16:39,143 - INFO - 查询SQL:SELECT id_password,role from member WHERE id_number='root' 
+2023-08-07 15:16:39,199 - INFO - 查询SQL:SELECT name FROM member WHERE id_number='root' 
+2023-08-07 15:16:41,221 - INFO - 更新SQL:INSERT INTO login_info (id_number,login_time,login_status) VALUES ('root', '2023-08-07 15:16:39', '1') 
+2023-08-07 15:16:41,284 - INFO - 更新SQL:UPDATE member SET user_status=1 WHERE id_number='root' 
+2023-08-07 15:16:41,371 - INFO - root 登录成功
+2023-08-07 15:16:41,372 - INFO - 查询SQL:SELECT approve_name from approve_user WHERE file_type=1 ORDER BY approve_name
+2023-08-07 15:16:41,434 - INFO - 查询SQL:SELECT ROW_NUMBER() OVER ( ORDER BY ID ) AS row_number,file_name,ID,id_number,send_time,finish_status,Uname FROM approve_file WHERE ID IN (SELECT job_id FROM approve_job WHERE job_flag=1) and file_name like '%%' and id_number like '%%' and send_time >= ''
+2023-08-07 15:16:53,569 - INFO - 更新SQL:INSERT INTO login_info (id_number,login_time,login_status) VALUES ('root', '2023-08-07 15:16:52', '0') 
+2023-08-07 15:16:53,603 - INFO - 更新SQL:UPDATE member SET user_status=0 WHERE id_number='root' 
+2023-08-07 15:16:53,633 - INFO - root 退出登录
+2023-08-07 15:19:23,472 - INFO - 查询SQL:SELECT id_password,role from member WHERE id_number='100401' 
+2023-08-07 15:19:23,549 - INFO - 查询SQL:SELECT name FROM member WHERE id_number='100401' 
+2023-08-07 15:19:23,655 - INFO - 更新SQL:INSERT INTO login_info (id_number,login_time,login_status) VALUES ('100401', '2023-08-07 15:19:23', '1') 
+2023-08-07 15:19:23,674 - INFO - 更新SQL:UPDATE member SET user_status=1 WHERE id_number='100401' 
+2023-08-07 15:19:23,715 - INFO - 100401 登录成功
+2023-08-07 15:19:23,716 - INFO - 查询SQL:SELECT approve_name from approve_user WHERE file_type=1 ORDER BY approve_name
+2023-08-07 15:19:23,755 - INFO - 查询SQL:SELECT ROW_NUMBER() OVER ( ORDER BY ID ) AS row_number,file_name,ID,id_number,send_time,finish_status,Uname FROM approve_file WHERE ID IN (SELECT job_id FROM approve_job WHERE job_flag=1 and id_number='100401') and file_name like '%%' and id_number like '%%' and send_time >= ''
+2023-08-07 15:19:25,091 - INFO - 查询SQL:SELECT ROW_NUMBER() OVER ( ORDER BY ID ) AS row_number,file_name,ID,id_number,send_time,finish_status,Uname FROM approve_file WHERE ID IN (SELECT job_id FROM approve_job WHERE job_flag=1 and id_number='100401') and file_name like '%%' and id_number like '%%' and send_time >= ''
+2023-08-07 15:19:26,565 - INFO - 查询SQL:SELECT ROW_NUMBER() OVER ( ORDER BY ID ) AS row_number,file_name,a.ID,a.id_number,a.send_time,a.finish_status,a.Uname FROM approve_file AS a JOIN approve_job AS b on a.ID=b.job_id WHERE b.finish_flag=1 and b.approve_level <> 0 and b.id_number='100401' and a.file_name like '%%' and a.finish_status LIKE '%%' and a.id_number LIKE '%%' and a.send_time >= '' 
+2023-08-07 15:19:29,230 - INFO - 导出成功,路径:D:\python\2023\document_system\excel\SP-2023-08-07-15-19-28.xlsx
+2023-08-07 15:20:14,660 - INFO - 更新SQL:INSERT INTO login_info (id_number,login_time,login_status) VALUES ('100401', '2023-08-07 15:20:14', '0') 
+2023-08-07 15:20:14,701 - INFO - 更新SQL:UPDATE member SET user_status=0 WHERE id_number='100401' 
+2023-08-07 15:20:14,718 - INFO - 100401 退出登录
+2023-08-07 15:26:03,333 - INFO - 查询SQL:SELECT id_password,role from member WHERE id_number='100401' 
+2023-08-07 15:26:03,388 - INFO - 查询SQL:SELECT name FROM member WHERE id_number='100401' 
+2023-08-07 15:26:03,478 - INFO - 更新SQL:INSERT INTO login_info (id_number,login_time,login_status) VALUES ('100401', '2023-08-07 15:26:03', '1') 
+2023-08-07 15:26:03,496 - INFO - 更新SQL:UPDATE member SET user_status=1 WHERE id_number='100401' 
+2023-08-07 15:26:03,518 - INFO - 100401 登录成功
+2023-08-07 15:26:03,518 - INFO - 查询SQL:SELECT approve_name from approve_user WHERE file_type=1 ORDER BY approve_name
+2023-08-07 15:26:03,535 - INFO - 查询SQL:SELECT ROW_NUMBER() OVER ( ORDER BY ID ) AS row_number,file_name,ID,id_number,send_time,finish_status,Uname FROM approve_file WHERE ID IN (SELECT job_id FROM approve_job WHERE job_flag=1 and id_number='100401') and file_name like '%%' and id_number like '%%' and send_time >= ''
+2023-08-07 15:26:21,849 - INFO - 查询SQL:SELECT ROW_NUMBER() OVER ( ORDER BY ID ) AS row_number,file_name,ID,id_number,send_time,finish_status,Uname FROM approve_file WHERE id_number='100401' and file_name like '%%' and finish_status LIKE '%%' and send_time >= '' 
+2023-08-07 15:26:25,881 - INFO - 查询SQL:SELECT ROW_NUMBER() OVER ( ORDER BY ID ) AS row_number,file_name,ID,id_number,send_time,finish_status,Uname FROM approve_file WHERE ID IN (SELECT job_id FROM approve_job WHERE job_flag=1 and id_number='100401') and file_name like '%%' and id_number like '%%' and send_time >= ''
+2023-08-07 15:26:27,921 - INFO - 查询SQL:SELECT ROW_NUMBER() OVER ( ORDER BY ID ) AS row_number,file_name,a.ID,a.id_number,a.send_time,a.finish_status,a.Uname FROM approve_file AS a JOIN approve_job AS b on a.ID=b.job_id WHERE b.finish_flag=1 and b.approve_level <> 0 and b.id_number='100401' and a.file_name like '%%' and a.finish_status LIKE '%%' and a.id_number LIKE '%%' and a.send_time >= '' 
+2023-08-07 15:26:32,922 - INFO - 导出成功,路径:D:\python\2023\document_system\excel\SP-2023-08-07-15-26-32.xlsx
+2023-08-07 15:26:38,344 - INFO - 查询SQL:SELECT ID,file_code,product_code,rwl,createdate,validdate,station,lj_type,remark FROM lj_document WHERE file_code LIKE '%%' and product_code LIKE '%%' and rwl LIKE '%%' and lj_type LIKE '%%' and remark LIKE '%%' and createdate >= '' ORDER BY ID
+2023-08-07 15:26:44,681 - INFO - 查询SQL-MES:SELECT ID,Rwl,ItemCode1,beizhu FROM LJSHTable 
+2023-08-07 15:27:23,579 - INFO - 查询SQL:SELECT ID,file_code,product_code,rwl,createdate,validdate,station,lj_type,remark FROM lj_document WHERE file_code LIKE '%%' and product_code LIKE '%%' and rwl LIKE '%%' and lj_type LIKE '%%' and remark LIKE '%%' and createdate >= '' ORDER BY ID
+2023-08-07 15:27:24,762 - INFO - 查询SQL:SELECT * FROM lj_document WHERE ID=4 
+2023-08-07 15:27:27,297 - INFO - 查询SQL:SELECT * FROM lj_document WHERE ID=17 
+2023-08-07 15:27:31,362 - INFO - 查询SQL:SELECT ID, file_code,file_name,version,createdate,department,file_type,remark FROM level2_document ORDER BY ID
+2023-08-07 15:27:37,075 - INFO - 查询SQL:select ID, file_code,file_name,version,createdate,department,file_type,remark from (SELECT ID, file_code,file_name,version,createdate,department,file_type,remark FROM level2_document UNION SELECT ID, file_code,file_name,version,createdate,department,file_type,remark FROM level3_document UNION SELECT ID, file_code,file_name,version,createdate,department,file_type,remark FROM level4_document UNION SELECT ID, file_code,file_name,version,createdate,department,file_type,remark FROM foreign_document UNION SELECT ID, file_code,file_name,version,createdate,department,file_type,remark FROM temp_document UNION SELECT ID, file_code,file_name,version,createdate,department,file_type,remark FROM document_issue ) as a 
+2023-08-07 15:27:47,669 - INFO - 查询SQL:SELECT ID, file_code,file_name,version,createdate,department,file_type,remark FROM level3_document ORDER BY ID
+2023-08-07 15:27:59,830 - INFO - 查询SQL:SELECT ROW_NUMBER() OVER ( ORDER BY ID ) AS row_number,file_code,file_name,version,createdate,department,file_type,remark  FROM level2_document 
+2023-08-07 15:28:06,350 - INFO - 查询SQL:SELECT ID, file_code,file_name,version,createdate,department,file_type,remark FROM level3_document ORDER BY ID
+2023-08-07 15:28:13,605 - INFO - 查询SQL:SELECT ID, file_code,file_name,version,createdate,department,file_type,remark FROM level2_document ORDER BY ID
+2023-08-07 15:28:29,045 - INFO - 查询SQL:SELECT ROW_NUMBER() OVER ( ORDER BY ID ) AS row_number,file_code,file_name,version,createdate,department,file_type,remark  FROM level3_document 
+2023-08-07 15:28:39,564 - INFO - 查询SQL:SELECT ID, file_code,file_name,version,createdate,department,file_type,remark FROM level3_document ORDER BY ID
+2023-08-07 15:29:42,920 - INFO - 查询SQL:SELECT id_password,role from member WHERE id_number='root' 
+2023-08-07 15:29:42,975 - INFO - 查询SQL:SELECT name FROM member WHERE id_number='root' 
+2023-08-07 15:29:45,969 - INFO - 更新SQL:INSERT INTO login_info (id_number,login_time,login_status) VALUES ('root', '2023-08-07 15:29:42', '1') 
+2023-08-07 15:29:46,010 - INFO - 更新SQL:UPDATE member SET user_status=1 WHERE id_number='root' 
+2023-08-07 15:29:46,066 - INFO - root 登录成功
+2023-08-07 15:29:46,066 - INFO - 查询SQL:SELECT approve_name from approve_user WHERE file_type=1 ORDER BY approve_name
+2023-08-07 15:29:46,088 - INFO - 查询SQL:SELECT ROW_NUMBER() OVER ( ORDER BY ID ) AS row_number,file_name,ID,id_number,send_time,finish_status,Uname FROM approve_file WHERE ID IN (SELECT job_id FROM approve_job WHERE job_flag=1) and file_name like '%%' and id_number like '%%' and send_time >= ''
+2023-08-07 15:30:02,711 - INFO - 查询SQL:SELECT COUNT(1) FROM approve_file WHERE file_name=N'浙江极智一般纳税人证明.pdf' AND finish_flag !=2 
+2023-08-07 15:30:02,754 - INFO - 查询SQL:SELECT MAX(ID) FROM approve_file
+2023-08-07 15:30:02,771 - INFO - 更新SQL:INSERT INTO approve_file (ID,file_name,filepath,file_size,upload_time,id_number,finish_flag,finish_status,server_status,popup_flag) VALUES (4944, '浙江极智一般纳税人证明.pdf', 'C:/Users/zouju/Desktop/AEP注册/浙江极智一般纳税人证明.pdf', 131.32, '2023-08-07 15:30:02', 'root', 0, '', '', 0)
+2023-08-07 15:30:03,001 - INFO - \\10.10.80.80\share\临时共享\temp_document 归档失败:[Errno 22] Invalid argument: '\\\\10.10.80.80\\share\\临时共享\\temp_document'
+2023-08-07 15:30:05,125 - INFO - C:/Users/zouju/Desktop/AEP注册/浙江极智一般纳税人证明.pdf复制失败
+2023-08-07 15:30:05,125 - INFO - 查询SQL:SELECT ROW_NUMBER() OVER ( ORDER BY ID ) AS row_number,file_name,ID,id_number,send_time,finish_status,Uname FROM approve_file WHERE ID=4944
+2023-08-07 15:30:14,922 - INFO - 更新SQL:INSERT INTO login_info (id_number,login_time,login_status) VALUES ('root', '2023-08-07 15:30:13', '0') 
+2023-08-07 15:30:14,957 - INFO - 更新SQL:UPDATE member SET user_status=0 WHERE id_number='root' 
+2023-08-07 15:30:14,987 - INFO - root 退出登录
